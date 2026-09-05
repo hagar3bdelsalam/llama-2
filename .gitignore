@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Llama 2 model files
+*.pth
+*.bin
+*.safetensors
+
+# Downloaded Llama files
+tokenizer.model
+*_checklist.chk
+LICENSE
+USE_POLICY.md
+
+# Model directories
+llama-2-7b/
+llama-2-7b-chat/
+llama-2-13b/
+llama-2-13b-chat/
+llama-2-70b/
+llama-2-70b-chat/
+
+# Logs
+*.log
+
+# Python cache / generated files
+*.pyc
+.pytest_cache/
